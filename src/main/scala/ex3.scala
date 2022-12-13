@@ -35,6 +35,7 @@ package EX3 {
 			Discounted(name = "Mouse", category = "tech", price = 25.50, discount = 0.2),
 			Regular(name = "dress", category = "clothes", price = 49.90)
 		)
+
 		println(cartAmount(articles))
 
 		//QUESTION 6 => PRIX FINAL: 197.491
