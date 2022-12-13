@@ -38,7 +38,7 @@ package EX3 {
 
 		println(cartAmount(articles))
 
-		//QUESTION 6 => PRIX FINAL: 197.491
+		//QUESTION 6 => PRIX FINAL: 187.891
 		val articles2: List[Article] = List(
 			Regular(name = "Rice", category = "food", price = 10.0),
 			Discounted(name = "Chocolate", category = "food", price = 8.0, discount = 0.1),
@@ -47,5 +47,5 @@ package EX3 {
 			Discounted(name = "Mouse", category = "tech", price = 25.50, discount = 0.2),
 			Regular(name = "dress", category = "clothes", price = 49.90)
 		)
-		println(cartAmount2(articles2, applyCoupon(0.5, "Food")))
+		println(cartAmount2(articles2, applyCoupon(0.5, "food")))
 }
